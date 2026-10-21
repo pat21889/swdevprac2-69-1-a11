@@ -33,6 +33,7 @@ export default function BookingPage() {
         bookDate: reservation.bookDate.format("YYYY/MM/DD"),
       }),
     );
+    setReservation(emptyReservation());
   };
 
   return (
